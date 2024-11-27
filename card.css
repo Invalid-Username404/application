@@ -1,0 +1,30 @@
+.card {
+  /* Base card styling */
+  position: relative;
+  border-radius: 16px;
+  padding: 24px;
+  background: linear-gradient(135deg, #e0f2ff 0%, #1e90ff 100%);
+  
+  /* Layered shadow for depth */
+  box-shadow: 
+    0px 1px 2px rgba(0, 0, 0, 0.1),
+    0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+  /* Smooth transitions */
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  /* Change gradient direction and make it slightly darker */
+  background: linear-gradient(45deg, #d1ebff 0%, #0080ff 100%);
+  
+  /* Enhanced shadow on hover */
+  box-shadow:
+    0px 4px 8px rgba(0, 0, 0, 0.1),
+    0px 8px 16px rgba(0, 0, 0, 0.1),
+    0px 16px 24px rgba(0, 0, 0, 0.1);
+    
+  /* Optional subtle lift effect */
+  transform: translateY(-2px);
+}
